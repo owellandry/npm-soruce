@@ -1,0 +1,417 @@
+:root {
+  /*
+    Semantically-named custom properties matching npm Figma Library
+    and Primer naming conventions.
+
+    These should be preferred over the below variables.
+
+    Note that each variable has a corresponding class;
+    `--color-fg-default` can be applied with `.color-fg-default`, etc.
+
+    https://www.figma.com/file/qewGdfS6NAH5yOR3gKtWK9/?node-id=3%3A41
+  */
+  --color-fg-default: #262626;
+  --color-fg-muted: #4d4d4d;
+  --color-fg-subtle: #666666;
+  --color-fg-on-emphasis: #ffffff;
+  --color-fg-brand: #cb3837;
+  --color-fg-accent: #196cb2;
+  --color-fg-success: #107010;
+  --color-fg-attention: #886701;
+  --color-fg-danger: #bb2e3e;
+
+  --color-bg-default: #ffffff;
+  --color-bg-subtle: #f7f7f7;
+  --color-bg-inset: #f2f2f2;
+  --color-bg-emphasis: #262626;
+  --color-bg-accent: #f2f9ff;
+  --color-bg-success: #dcfdd9;
+  --color-bg-attention: #fff5d8;
+  --color-bg-danger: #ffdbdb;
+
+  --color-border-default: #e6e6e6;
+  --color-border-muted: #f2f2f2;
+  --color-border-strong: #767676;
+  --color-border-accent: #afcee9;
+  --color-border-accent-emphasis: #0969da;
+  --color-border-success: #93d58a;
+  --color-border-success-emphasis: #107010;
+  --color-border-attention: #efd88f;
+  --color-border-danger: #f1b8bc;
+
+  --color-shadow-large: 0 8px 24px rgba(140, 149, 159, 0.2);
+
+  /*
+    Legacy color variables — please avoid!
+  */
+  --wombat-red-hover: #c40b0a;
+  --button-green: #00c642;
+  --wombat-yellow: #ffcd3a;
+  --wombat-violet: #8956ff;
+  --wombat-purple: #c836c3;
+  --wombat-green: #00c642;
+  --wombat-teal: #29abe2;
+  --light-blue: #70b8ff;
+  --wombat-red: #cb3837;
+  --header-color: #000;
+  --bg-dark: #cb3837;
+  --npmRed: #cb3837;
+  --npmLightRed: #fb3e44;
+  --blue: #357edd;
+  --bg: #fff;
+  --background-color: #fafafa;
+  --wombat-bg-red: rgba(203, 55, 56, 0.1);
+
+  --code: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+  --code-ls: 0px;
+  --code-lh: 24px;
+
+  --standardCardTransition: all 0.2s ease;
+
+  --header-letter-spacing: 0.015625em;
+
+  --readme-font-size: 18px;
+  --readme-line-height: 1.6;
+  --copy-color: rgba(0, 0, 0, 0.85);
+  --code-bg: #f7f7f7;
+  --code-box-radius: 2px;
+}
+/*
+These breakpoints are based on tachyon's source
+
+TACHYONS v4.9.0 | http://tachyons.io
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE. 
+*/
+._36ae70e9 {
+}
+@media screen and (min-width: 1200px) {
+  ._36ae70e9 {
+    max-width: 1200px;
+  }
+}
+.d3205a53 {
+  display: flex;
+  flex-grow: 1;
+  background-color: #fafafa;
+  background-color: var(--background-color);
+}
+.eca9e817 {
+  margin-right: 8px;
+}
+.e22ba268 {
+}
+.ad8c1588 {
+}
+._3f330ce9 {
+}
+._19d456a6 {
+}
+._4b60b4d3 {
+  background: white;
+}
+.cd6ce1fd {
+  max-width: 100vw;
+}
+._50685029 {
+  letter-spacing: -0.8px;
+}
+._94b965b0 {
+  background: #f2f9ff;
+  border: 1px solid #a7bdff;
+  flex: none;
+  letter-spacing: 0;
+}
+._76473bea {
+  font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+  font-family: var(--code);
+  background: transparent;
+  flex: none;
+  letter-spacing: 0;
+}
+._813b53b2 {
+  color: #14865c;
+}
+._2e7477a7 svg {
+  display: inline-block;
+  margin-right: 8px;
+  width: 8px;
+  height: 12px;
+}
+._0ee79867 {
+}
+.d92e4bdd {
+  top: 20px;
+  left: 20px;
+  height: auto;
+  width: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+._6620a4fd {
+}
+.fdbf4038 {
+}
+.c5c59eb8 {
+}
+._9c22e959 {
+  display: none;
+}
+._702d723c {
+}
+._14e2f301 {
+}
+.b5be2af6 {
+  position: relative;
+  max-width: 95vw;
+  line-height: 24px;
+}
+.b5be2af6 svg {
+  width: 0.9em;
+  height: 0.9em;
+  flex: none;
+  margin-right: 3px;
+  margin-left: 0px;
+  margin-top: 6px;
+  fill: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+._33c89934 {
+}
+._44c90bfa {
+  color: #cb3837;
+  color: var(--wombat-red);
+}
+._44c90bfa svg {
+  flex: none;
+  display: inline-block;
+  margin-top: 2px;
+  margin-right: 11px;
+  width: 1em;
+  height: 1em;
+  opacity: 0.7;
+}
+._5cfc0900 svg {
+  width: 8px;
+  height: 12px;
+  margin-right: 8px;
+  fill: rgba(0, 0, 0, 0.45);
+}
+.c84e15be {
+  color: #757575;
+}
+.f2874b88 {
+}
+._40aff104 {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding: 4px;
+}
+._1a11b8cf {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding: 4px;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.b2812e30 {
+  display: inline-block;
+  font-size: 18px;
+  max-width: 100%;
+  overflow: visible;
+  white-space: normal;
+}
+.b2812e30:focus,
+.b2812e30:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #cb3837;
+}
+._45c05bdc {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  display: inline;
+  font-size: 18px;
+}
+._45c05bdc:focus,
+._45c05bdc:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #cb3837;
+}
+.b2812e30:focus {
+  outline: 1px dotted;
+}
+.b2812e30 svg {
+  color: #0a0b09;
+  height: 16px;
+  margin-right: 8px;
+}
+.df3864ac code {
+  word-wrap: wrap;
+  padding-left: 10px;
+}
+.d767adf4 {
+  font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+  font-family: var(--code);
+  letter-spacing: 0px;
+  letter-spacing: var(--code-ls);
+  font-feature-settings: none;
+  font-variant-ligatures: none;
+  position: relative;
+  margin-top: 14px;
+}
+.d767adf4 > svg {
+  position: absolute;
+  top: 11px;
+  left: 18px;
+}
+.d767adf4 code {
+  -webkit-user-select: all;
+     -moz-user-select: all;
+          user-select: all;
+}
+.d767adf4 p {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 10px 10px 10px 34px;
+  border: 1px #cccccc solid;
+}
+._000ae427 {
+  border-bottom: 2px solid rgba(137, 86, 255, 0.2);
+}
+._418c4939 {
+  margin-right: -4px;
+}
+._9ba9a726 {
+  word-wrap: break-word;
+}
+.b16fd786 {
+}
+._8a41cc8f {
+  color: #cb3837;
+  color: var(--wombat-red);
+}
+.a0dff0b1 {
+  border-bottom: 1px dotted #ccc;
+  color: #111;
+}
+._95d7789f {
+}
+._5d3716c3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  transition: all 0.15s ease-in;
+}
+/**
+ * Package access
+ */
+.c6e34c57 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.c6e34c57 li {
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+.c6e34c57 li span:nth-child(3) {
+  width: calc(100% - 170px);
+  text-align: right;
+}
+._3ebf5573,
+.fb3d3716,
+._66ebded7 {
+}
+.fb3d3716 {
+  width: 125px;
+}
+._426b8533 img {
+  border-radius: 3px;
+}
+._3711aa1e {
+  width: 44px;
+  height: 44px;
+  line-height: 40px;
+  color: #00c642;
+  color: var(--wombat-green);
+  border-color: #00c642;
+  border-color: var(--wombat-green);
+}
+.a03d8d59 {
+  position: relative;
+}
+._405dc045 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4d4d4d;
+  color: white;
+  padding: 2px 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  margin-bottom: 5px;
+}
+.a03d8d59:focus-within:not(:hover) ._405dc045 {
+  opacity: 1;
+  visibility: visible;
+}
+._3ebf5573 {
+  width: 25px;
+}
+._6054af20 {
+  box-shadow: none;
+}
+._513426a8 {
+  width: 18px;
+  margin-right: 5px;
+}
+.bae53307 {
+  word-break: break-word;
+  word-wrap: break-word;
+  display: inline;
+  vertical-align: middle;
+}
+.abe380b3 {
+}
+._5a19b43e {
+  margin-top: -0.65rem;
+}
+.c7520c26 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

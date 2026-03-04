@@ -1,0 +1,9 @@
+._2deea771 {
+  animation: _6a09b357 1s linear infinite;
+}
+
+@keyframes _6a09b357 {
+  100% {
+    transform: rotate(360deg);
+  }
+}

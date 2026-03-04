@@ -1,0 +1,93 @@
+._69cba6d9 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+._69cba6d9 > div {
+  position: relative;
+  top: max(60px, 15%);
+}
+
+._4fa73a47 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+._0897331b {
+  padding-left: 0;
+}
+
+._2309b204 {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+._9330ecdb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 77px;
+}
+
+._9330ecdb > li {
+  width: 100%;
+}
+
+@keyframes _2e6fd456 {
+  from {
+    height: 74px;
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+._2e6fd456 {
+  overflow: hidden;
+  height: 0;
+  animation-duration: 0.3s;
+  animation-name: _2e6fd456;
+  transition: height 0.3s ease-out;
+}
+
+/* tag used to be able to override primer builtin style */
+
+div.b76c4d9c {
+  padding-bottom: 8px;
+  margin-top: 8px;
+  border: none;
+  margin-right: auto;
+}
+
+.b76c4d9c > nav > a {
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.b76c4d9c > nav > a > span {
+  font-size: 14px;
+}
+
+.db8da2e0 {
+  /* used in not selector below */
+}
+
+/* dim not selected tab labels and counters */
+
+.b76c4d9c > nav > a:not(.db8da2e0),
+.b76c4d9c > nav > a:not(.db8da2e0) span {
+  color: rgba(0, 0, 0, 0.5);
+}

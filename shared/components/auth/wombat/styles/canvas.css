@@ -1,0 +1,36 @@
+._98d1fd92 {
+  position: relative;
+  background: #ddd;
+  border-radius: 9999px;
+  height: 200px;
+  margin: 0 auto 20px;
+  transition: background 200ms ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  width: 200px;
+}
+
+._98d1fd92 * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/**
+ * Modifiers
+ */
+
+._98d1fd92._0c752f11 {
+  background-color: #999;
+}
+
+/**
+ * Accessibility
+ */
+
+@media screen and (prefers-reduced-motion: reduce) {
+  ._98d1fd92 {
+    transition: none;
+  }
+}

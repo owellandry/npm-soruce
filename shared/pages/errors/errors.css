@@ -1,0 +1,15 @@
+._8377252a {
+}
+
+._8377252a summary {
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+._8377252a pre {
+  font-size: 0.8em;
+  overflow-x: scroll;
+}

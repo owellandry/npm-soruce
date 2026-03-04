@@ -1,0 +1,349 @@
+/* These are the markdown styles that used to be included directly in the <head>
+as a global stylesheet. They were only targeting the class name "markdown" so
+they have been converted to a CSS module and are required along with the other
+markdown styles. Some of these classes are no longer used in new readmes being
+generated, but they can't be deleted because many old readmes do use them. Known
+legacy classes have been marked below but is non-exhaustive. To be confident in
+deleting this file, we would need to regenerate all of the readmes on the
+registry. A future refactor could merge this file with markdown.css since some
+styles are duplicated between the two. */
+._704c034e {
+  margin: 0;
+  color: #333;
+}
+._704c034e ol {
+    list-style-position: outside;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 16px;
+  }
+._704c034e ol li {
+    margin-bottom: 2px;
+  }
+._704c034e li {
+    font-weight: 400;
+  }
+._704c034e > h1 {
+    margin: 24px 0 16px 0;
+    padding: 0;
+    padding-bottom: 7px;
+    line-height: 1.2;
+    white-space: normal;
+    text-transform: none;
+    letter-spacing: -0.8px;
+  }
+._704c034e > h1 a {
+    color: text-color;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+._704c034e > h2,
+  ._704c034e h3,
+  ._704c034e h4,
+  ._704c034e h5,
+  ._704c034e h6 {
+    font-weight: 600;
+  }
+._704c034e > h2 a,
+  ._704c034e h3 a,
+  ._704c034e h4 a,
+  ._704c034e h5 a,
+  ._704c034e h6 a {
+    font-weight: 700;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+  }
+._704c034e > h2 a:hover,
+  ._704c034e h3 a:hover,
+  ._704c034e h4 a:hover,
+  ._704c034e h5 a:hover,
+  ._704c034e h6 a:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+._704c034e > h1,
+  ._704c034e h2 {
+    border-bottom: 1px solid greigh6;
+    margin: 8px 0 16px 0;
+  }
+._704c034e h2 {
+    letter-spacing: -0.3px;
+  }
+._704c034e h3 {
+    margin: 16px 0 4px 0;
+  }
+._704c034e h4,
+  ._704c034e h5,
+  ._704c034e h6 {
+    margin: 16px 0 4px 0;
+  }
+._704c034e ol ol,
+  ._704c034e ul ol,
+  ._704c034e ol ul,
+  ._704c034e ul ul {
+    margin: 0 0 0 20px;
+  }
+._704c034e p,
+  ._704c034e li {
+    color: #202020;
+  }
+._704c034e p a,
+  ._704c034e li a {
+    font-weight: 600;
+  }
+._704c034e th {
+    font-weight: bold;
+  }
+._704c034e td,
+  ._704c034e th {
+    background: #fff;
+    border: 1px solid greigh6;
+  }
+._704c034e img {
+    max-width: 100%;
+  }
+/* Old readmes used the classes .deep-link and .deep-link-icon for header links */
+._704c034e h1:hover .deep-link .deep-link-icon,
+  ._704c034e h2:hover .deep-link .deep-link-icon,
+  ._704c034e h3:hover .deep-link .deep-link-icon,
+  ._704c034e h4:hover .deep-link .deep-link-icon,
+  ._704c034e h5:hover .deep-link .deep-link-icon,
+  ._704c034e h6:hover .deep-link .deep-link-icon,
+  ._704c034e .deep-link:hover .deep-link-icon,
+  ._704c034e .deep-link:focus .deep-link-icon,
+  ._704c034e .deep-link-icon:hover {
+    visibility: visible;
+  }
+._704c034e .deep-link {
+    float: left;
+    margin-left: -20px;
+    padding-right: 4px;
+  }
+._704c034e .deep-link .deep-link-icon {
+    visibility: hidden;
+  }
+._704c034e blockquote {
+    background: #efefef;
+    padding: 1px 16px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: #cecece solid 10px;
+    border-radius: 3px;
+  }
+._704c034e table {
+    display: block;
+    white-space: normal;
+    overflow-x: auto;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+._704c034e code {
+    font-feature-settings: none;
+    font-variant-ligatures: none;
+    font-family: var(--code);
+    letter-spacing: var(--code-ls);
+    line-height: var(--code-lh);
+  }
+._704c034e td,
+  ._704c034e th {
+    padding: 9px 13px;
+    border: 1px solid #d8d8d8;
+  }
+._704c034e tr:nth-child(2n) td {
+    background-color: #f4f4f4;
+  }
+/* All these classes are for legacy syntax highlighting */
+._704c034e .highlight {
+    background-color: #f0f0f0;
+    color: #000;
+    margin-bottom: 16px;
+    border-radius: 6px;
+  }
+._704c034e .highlight .invisible-character {
+    color: rgba(85, 85, 85, 0.2);
+  }
+._704c034e .highlight .indent-guide {
+    color: rgba(85, 85, 85, 0.2);
+  }
+._704c034e .highlight .wrap-guide {
+    background-color: rgba(85, 85, 85, 0.2);
+  }
+._704c034e .highlight .gutter {
+    color: #000;
+    background: #fff;
+  }
+._704c034e .highlight .gutter .line-number.folded,
+  ._704c034e .highlight .gutter .line-number:after,
+  ._704c034e .highlight .fold-marker:after {
+    color: #e87b00;
+  }
+._704c034e .highlight .invisible {
+    color: #555;
+  }
+._704c034e .highlight .selection .region {
+    background-color: #e1e1e1;
+  }
+._704c034e .highlight.is-focused .cursor {
+    border-color: #000;
+  }
+._704c034e .highlight.is-focused .selection .region {
+    background-color: #afc4da;
+  }
+._704c034e .highlight.is-focused .line-number.cursor-line-no-selection,
+  ._704c034e .highlight.is-focused .line.cursor-line {
+    background-color: rgba(255, 255, 134, 0.34);
+  }
+._704c034e .highlight .source.gfm {
+    color: #444;
+  }
+._704c034e .highlight .gfm .markup.heading {
+    color: #111;
+  }
+._704c034e .highlight .gfm .link {
+    color: #888;
+  }
+._704c034e .highlight .gfm .variable.list {
+    color: #888;
+  }
+._704c034e .highlight .markdown .paragraph {
+    color: #444;
+  }
+._704c034e .highlight .markdown .heading {
+    color: #111;
+  }
+._704c034e .highlight .markdown .link {
+    color: #888;
+  }
+._704c034e .highlight .markdown .link .string {
+    color: #888;
+  }
+._704c034e .highlight.is-focused .cursor {
+    border-color: #000;
+  }
+._704c034e .highlight.is-focused .selection .region {
+    background-color: #afc4da;
+  }
+._704c034e .highlight.is-focused .line-number.cursor-line-no-selection,
+  ._704c034e .highlight.is-focused .line.cursor-line {
+    background-color: rgba(255, 255, 134, 0.34);
+  }
+._704c034e .comment {
+    color: #656c76; /* Updated for WCAG 1.4.3 Contrast compliance - 4.7:1 ratio */
+    font-style: italic;
+  }
+._704c034e .string {
+    color: #d14;
+  }
+._704c034e .string .source,
+  ._704c034e .string .meta.embedded.line {
+    color: #5a5a5a;
+  }
+._704c034e .string .punctuation.section.embedded {
+    color: #920b2d;
+  }
+._704c034e .string .punctuation.section.embedded .source {
+    color: #920b2d;
+  }
+._704c034e .constant.numeric {
+    color: #d14;
+  }
+._704c034e .constant.language {
+    color: #606aa1;
+  }
+._704c034e .constant.character,
+  ._704c034e .constant.other {
+    color: #606aa1;
+  }
+._704c034e .constant.symbol {
+    color: #990073;
+  }
+._704c034e .constant.numeric.line-number.find-in-files .match {
+    color: rgba(143, 190, 0, 0.63);
+  }
+._704c034e .variable {
+    color: #008080;
+  }
+._704c034e .variable.parameter {
+    color: #606aa1;
+  }
+._704c034e .keyword {
+    color: #222;
+    font-weight: bold;
+  }
+._704c034e .keyword.unit {
+    color: #458;
+  }
+._704c034e .keyword.special-method {
+    color: #0086b3;
+  }
+._704c034e .storage {
+    color: #222;
+  }
+._704c034e .storage.type {
+    color: #222;
+  }
+._704c034e .entity.name.class {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    color: #606aa1;
+  }
+._704c034e .entity.other.inherited-class {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    color: #606aa1;
+  }
+._704c034e .entity.name.function {
+    color: #900;
+  }
+._704c034e .entity.name.tag {
+    color: #008080;
+  }
+._704c034e .entity.other.attribute-name {
+    color: #458;
+    font-weight: bold;
+  }
+._704c034e .entity.name.filename.find-in-files {
+    color: #e6db74;
+  }
+._704c034e .support.constant,
+  ._704c034e .support.function,
+  ._704c034e .support.type {
+    color: #458;
+  }
+._704c034e .support.class {
+    color: #008080;
+  }
+._704c034e .invalid {
+    color: #f8f8f0;
+    background-color: #00a8c6;
+  }
+._704c034e .invalid.deprecated {
+    color: #f8f8f0;
+    background-color: #8fbe00;
+  }
+._704c034e .meta.structure.dictionary.json > .string.quoted.double.json,
+  ._704c034e .meta.structure.dictionary.json > .string.quoted.double.json .punctuation.string {
+    color: #000080;
+  }
+._704c034e .meta.structure.dictionary.value.json > .string.quoted.double.json {
+    color: #d14;
+  }
+._704c034e .meta.diff,
+  ._704c034e .meta.diff.header {
+    color: #75715e;
+  }
+._704c034e .css.support.property-name {
+    font-weight: bold;
+    color: #333;
+  }
+._704c034e .css.constant {
+    color: #099;
+  }
+._704c034e .bracket-matcher .region {
+    background-color: #c9c9c9;
+    opacity: 0.7;
+    border-bottom: 0 none;
+  }

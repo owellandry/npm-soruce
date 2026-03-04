@@ -1,0 +1,70 @@
+:root {
+  --row-radius: 3px;
+  --selected-border-color: hsla(180, 50%, 50%, 1);
+}
+
+._896cee1a {
+  overflow-x: auto;
+  border-spacing: 0 8px;
+}
+
+._6a5898ac {
+  padding: 0.5em 0.75em;
+}
+
+._6a5898ac:first-child {
+  text-align: center;
+  width: 0.5em;
+  padding-right: 0;
+}
+
+._858540ae {
+}
+
+._038c0473 {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding: 0.75em;
+}
+
+._038c0473:first-child {
+  text-align: center;
+  width: 0.5em;
+  padding-right: 0;
+  border-left: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-left-radius: var(--row-radius);
+  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: var(--row-radius);
+}
+
+._038c0473:last-child {
+  padding-right: 0.75em;
+  border-right: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-right-radius: var(--row-radius);
+  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: var(--row-radius);
+}
+
+._305a9f55 ._038c0473 {
+  border-top: 1px solid hsla(180, 50%, 50%, 1);
+  border-top: 1px solid var(--selected-border-color);
+  border-bottom: 1px solid hsla(180, 50%, 50%, 1);
+  border-bottom: 1px solid var(--selected-border-color);
+  background-color: hsla(180, 50%, 50%, 0.2);
+}
+
+._305a9f55 ._038c0473:first-child {
+  border-left: 1px solid hsla(180, 50%, 50%, 1);
+  border-left: 1px solid var(--selected-border-color);
+}
+
+._305a9f55 ._038c0473:last-child {
+  border-right: 1px solid hsla(180, 50%, 50%, 1);
+  border-right: 1px solid var(--selected-border-color);
+}
+
+._836c43e2 ._038c0473 {
+  opacity: 0.5;
+}

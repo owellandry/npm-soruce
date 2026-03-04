@@ -1,0 +1,31 @@
+._4c489ca3 {
+  margin: 0;
+}
+
+._3bd152bf {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+._3bd152bf:focus-within {
+  border: 1px solid #0969da;
+}
+
+.b57b0119 {
+  background: none;
+  color: #262626;
+  font-size: 16px;
+  border: none;
+  outline: medium none currentcolor;
+  outline: initial;
+  height: 38px;
+  padding: 12px 8px 12px 8px;
+  border-radius: 0;
+  width: 400px;
+  -webkit-appearance: none;
+  line-height: 14px;
+}
+
+.b57b0119:focus {
+  outline: none;
+}

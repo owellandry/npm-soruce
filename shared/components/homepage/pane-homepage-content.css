@@ -1,0 +1,55 @@
+._8c1ee087 {
+  background-image:
+    linear-gradient(
+      270deg,
+      rgba(176, 42, 42, 0.16) 0%,
+      rgba(176, 42, 42, 0.56) 18.45%,
+      rgba(176, 42, 42, 0.8) 49.67%,
+      rgba(176, 42, 42, 0.56) 82.52%,
+      rgba(176, 42, 42, 0.196364) 99.7%,
+      rgba(189, 40, 40, 0) 99.71%,
+      rgba(203, 56, 55, 0) 99.72%,
+      rgba(203, 56, 55, 0.16) 99.73%
+    ),
+    url(https://static-production.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png);
+}
+
+.f7728d4c {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+._43683c6d {
+  background-image:
+    linear-gradient(
+      270deg,
+      rgba(176, 42, 42, 0.16) 0%,
+      rgba(176, 42, 42, 0.56) 18.45%,
+      rgba(176, 42, 42, 0.8) 49.67%,
+      rgba(176, 42, 42, 0.56) 82.52%,
+      rgba(176, 42, 42, 0.196364) 99.7%,
+      rgba(189, 40, 40, 0) 99.71%,
+      rgba(203, 56, 55, 0) 99.72%,
+      rgba(203, 56, 55, 0.16) 99.73%
+    ),
+    url(https://static-production.npmjs.com/3dc2ca3d2e53fc894b904d917cf90015.png);
+}
+
+._8eb61c75 {
+  font-family: 'Arimo', sans-serif;
+}
+
+._8eb61c75 h1,
+._8eb61c75 h2,
+._8eb61c75 h3,
+._8eb61c75 h4,
+._8eb61c75 h5,
+._8eb61c75 h6 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+.fde13d93 {
+  margin: 0.67em 0;
+}

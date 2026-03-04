@@ -1,0 +1,33 @@
+.b4f049ad {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-image: url(https://static-production.npmjs.com/c07230a8959706cf638a847c59a2ab2b.svg), linear-gradient(0deg, #d3ecec, #80cfd2 93%, #88cdd1);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 27vw;
+  position: relative;
+  max-height: 300px;
+}
+
+._0c22ad84 {
+  margin-left: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: bottom;
+  transform: translateX(-50%);
+  transition: transform ease-out 500ms;
+}
+
+.eb8edf43 {
+  width: 7vw;
+  max-width: 80px;
+  margin: 0 0.5vw;
+  transition: transform ease-out 250ms;
+  transform: translateY(30%);
+}
+
+._16bcb3c7 {
+  transform: translateY(92%);
+}

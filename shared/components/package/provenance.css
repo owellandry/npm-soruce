@@ -1,0 +1,421 @@
+/*
+These breakpoints are based on tachyon's source
+
+TACHYONS v4.9.0 | http://tachyons.io
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE. 
+*/
+
+:root {
+  /*
+    Semantically-named custom properties matching npm Figma Library
+    and Primer naming conventions.
+
+    These should be preferred over the below variables.
+
+    Note that each variable has a corresponding class;
+    `--color-fg-default` can be applied with `.color-fg-default`, etc.
+
+    https://www.figma.com/file/qewGdfS6NAH5yOR3gKtWK9/?node-id=3%3A41
+  */
+  --color-fg-default: #262626;
+  --color-fg-muted: #4d4d4d;
+  --color-fg-subtle: #666666;
+  --color-fg-on-emphasis: #ffffff;
+  --color-fg-brand: #cb3837;
+  --color-fg-accent: #196cb2;
+  --color-fg-success: #107010;
+  --color-fg-attention: #886701;
+  --color-fg-danger: #bb2e3e;
+
+  --color-bg-default: #ffffff;
+  --color-bg-subtle: #f7f7f7;
+  --color-bg-inset: #f2f2f2;
+  --color-bg-emphasis: #262626;
+  --color-bg-accent: #f2f9ff;
+  --color-bg-success: #dcfdd9;
+  --color-bg-attention: #fff5d8;
+  --color-bg-danger: #ffdbdb;
+
+  --color-border-default: #e6e6e6;
+  --color-border-muted: #f2f2f2;
+  --color-border-strong: #767676;
+  --color-border-accent: #afcee9;
+  --color-border-accent-emphasis: #0969da;
+  --color-border-success: #93d58a;
+  --color-border-success-emphasis: #107010;
+  --color-border-attention: #efd88f;
+  --color-border-danger: #f1b8bc;
+
+  --color-shadow-large: 0 8px 24px rgba(140, 149, 159, 0.2);
+
+  /*
+    Legacy color variables — please avoid!
+  */
+  --wombat-red-hover: #c40b0a;
+  --button-green: #00c642;
+  --wombat-yellow: #ffcd3a;
+  --wombat-violet: #8956ff;
+  --wombat-purple: #c836c3;
+  --wombat-green: #00c642;
+  --wombat-teal: #29abe2;
+  --light-blue: #70b8ff;
+  --wombat-red: #cb3837;
+  --header-color: #000;
+  --bg-dark: #cb3837;
+  --npmRed: #cb3837;
+  --npmLightRed: #fb3e44;
+  --blue: #357edd;
+  --bg: #fff;
+  --background-color: #fafafa;
+  --wombat-bg-red: rgba(203, 55, 56, 0.1);
+
+  --code: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+  --code-ls: 0px;
+  --code-lh: 24px;
+
+  --standardCardTransition: all 0.2s ease;
+
+  --header-letter-spacing: 0.015625em;
+
+  --readme-font-size: 18px;
+  --readme-line-height: 1.6;
+  --copy-color: rgba(0, 0, 0, 0.85);
+  --code-bg: #f7f7f7;
+  --code-box-radius: 2px;
+}
+
+.d29e8347 {
+  outline: none;
+}
+
+._2aaf107f {
+  border: 1px solid #e6e6e6;
+  border: 1px solid var(--color-border-default);
+  line-height: 1.25;
+}
+
+._4708c88d {
+  border-color: #f1b8bc;
+  border-color: var(--color-border-danger);
+}
+
+._47fd86d3 {
+  border-color: #efd88f;
+  border-color: var(--color-border-attention);
+}
+
+._1ba3cb96 {
+  border-color: #196cb2;
+  border-color: var(--color-fg-accent);
+  box-shadow: 0 0 0 2px rgba(175, 206, 233, 1);
+}
+
+.ec332c81 {
+  gap: 16px;
+}
+
+@media screen and (min-width: 60em) {
+  .ec332c81 {
+    gap: 48px;
+  }
+}
+
+.f283f9de {
+}
+
+.d63941d2 {
+  position: relative;
+  padding: 32px;
+  text-align: center;
+}
+
+._34e32be9 {
+  margin-top: 16px;
+}
+
+._568dce24 {
+  margin: 0;
+}
+
+._7f9f8de3 {
+  margin: 0;
+}
+
+.c111cee3 {
+  display: grid;
+  grid-template-columns: 16px max-content;
+  grid-template-rows: repeat(3, 18px);
+  grid-column-gap: 8px;
+  grid-row-gap: 4px;
+  align-items: center;
+  grid-template-areas:
+    'label label'
+    'icon name'
+    'link link';
+}
+
+.deed23b3 {
+  grid-template-areas:
+    'label label'
+    'name name'
+    'link link';
+}
+
+@media screen and (min-width: 60em) {
+  .c111cee3 {
+    grid-template-columns: 24px max-content;
+    grid-row-gap: 8px;
+    align-items: end;
+    grid-template-areas:
+      '.... label'
+      'icon name'
+      '.... link';
+  }
+
+  .deed23b3 {
+    grid-template-areas:
+      'label label'
+      'name name'
+      'link link';
+  }
+}
+
+._7c702b1b {
+  display: grid;
+  grid-template-columns: 24px max-content;
+  grid-template-rows: repeat(2, 18px);
+  grid-column-gap: 8px;
+  grid-row-gap: 2px;
+  align-items: center;
+  grid-template-areas:
+    'icon label'
+    'icon name';
+}
+
+.ad96356d {
+  grid-template-areas:
+    'label label'
+    'name name';
+}
+
+.ba5f76b4 {
+  display: grid;
+  grid-template-columns: 24px max-content;
+  grid-template-rows: repeat(1, 32px);
+  grid-column-gap: 8px;
+  align-items: center;
+  grid-template-areas: 'icon label';
+}
+
+.e668bb23 {
+  padding: 0.7rem 1rem;
+}
+
+.d6a04e7c {
+}
+
+.e46f240d {
+  color: #4d4d4d;
+  color: var(--color-fg-muted);
+}
+
+.e2c780f3 {
+  margin-right: 8px;
+  position: relative;
+  top: -1px;
+}
+
+._9666fddd {
+  color: #4d4d4d;
+  color: var(--color-fg-muted);
+  grid-area: label;
+  /* Render breaking newlines */
+  white-space: pre-line;
+}
+
+._0a69b0cd {
+  color: var(--color-fg-body);
+  grid-area: label;
+  /* Render breaking newlines */
+  white-space: pre-line;
+}
+
+._6ac128e9 {
+  white-space: nowrap;
+  grid-area: name;
+}
+
+._1e07caeb {
+  white-space: nowrap;
+  grid-area: name;
+}
+
+@media screen and (min-width: 60em) {
+  ._6ac128e9 {
+    top: 1px;
+    position: relative;
+  }
+}
+
+._861fb12a {
+  color: #4d4d4d;
+  color: var(--color-fg-muted);
+  grid-area: link;
+}
+
+._7d7c804b {
+  grid-area: icon;
+  display: inline-grid;
+}
+
+._235f18e4 {
+  position: relative;
+  top: 1px;
+}
+
+._5c705b0e {
+}
+
+.d255084d {
+  display: none;
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (min-width: 60em) {
+  ._5c705b0e {
+    display: none;
+  }
+
+  .d255084d {
+    display: inline-grid;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  ._87c261f2 {
+    display: grid;
+    grid-template-rows: repeat(3, 18px);
+    grid-template-columns: max-content 1fr;
+    grid-row-gap: 8px;
+    grid-column-gap: 16px;
+    align-items: end;
+  }
+}
+
+._2160593e {
+  color: #4d4d4d;
+  color: var(--color-fg-muted);
+  margin-top: 16px;
+}
+
+._2160593e:first-child {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 60em) {
+  ._2160593e {
+    margin-top: 0;
+  }
+}
+
+._174fef88 {
+}
+
+._9d38ab88 {
+  color: #4d4d4d;
+  color: var(--color-fg-muted);
+  line-height: 1.25;
+}
+
+.ff9ecbf1 {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+._3f1ac19b {
+  width: 210px;
+}
+
+._0ead8fa1 {
+  width: 180px;
+}
+
+._0aa7bdd3 {
+  /* Reset font-styles so we can render it inside the versions tab with monospace fonts */
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.f895b582 {
+  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid var(--color-border-default);
+}
+
+.b7321c25 {
+}
+
+._15413347 {
+}
+
+.e2d8e7b7 {
+  padding: 12px 0;
+  display: inline-block;
+}
+
+._4e10c754 {
+  margin-top: 8px;
+}
+
+._1eab36bc {
+  height: 26px;
+  width: 26px;
+  top: 2px;
+  position: relative;
+  /* reset button styling */
+  padding: 0;
+  border: 0;
+  outline: inherit;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+/* Focus outline when navigating with keyboard */
+
+._1eab36bc:focus-visible {
+  outline: #196cb2 auto 1px;
+  outline: var(--color-fg-accent) auto 1px;
+}
+
+._1a9a2259 {
+  border-color: #bb2e3e;
+  border-color: var(--color-fg-danger);
+  box-shadow: 0 0 0 2px rgba(203, 115, 104, 0.585);
+}
+
+._3d5fcf05 {
+  border-color: #886701;
+  border-color: var(--color-fg-attention);
+  box-shadow: 0 0 0 2px rgba(203, 182, 104, 0.585);
+}

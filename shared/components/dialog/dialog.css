@@ -1,0 +1,27 @@
+._8c5b45f0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bcae333e {
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.13) 0%, rgba(0, 184, 15, 0.1) 100%);
+  border: 1px solid rgba(75, 173, 58, 0.5);
+}
+
+.bcae333e:hover {
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.18) 0%, rgba(0, 184, 15, 0.14) 100%);
+  border: 1px solid rgba(75, 173, 58, 0.6);
+}
+
+._17b5807a {
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.09) 0%, rgba(17, 17, 17, 0.04) 100%);
+}
+
+._17b5807a:hover {
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.18) 0%, rgba(17, 17, 17, 0.08) 100%);
+}

@@ -1,0 +1,241 @@
+/*
+These breakpoints are based on tachyon's source
+
+TACHYONS v4.9.0 | http://tachyons.io
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE. 
+*/
+
+:root {
+  /*
+    Semantically-named custom properties matching npm Figma Library
+    and Primer naming conventions.
+
+    These should be preferred over the below variables.
+
+    Note that each variable has a corresponding class;
+    `--color-fg-default` can be applied with `.color-fg-default`, etc.
+
+    https://www.figma.com/file/qewGdfS6NAH5yOR3gKtWK9/?node-id=3%3A41
+  */
+  --color-fg-default: #262626;
+  --color-fg-muted: #4d4d4d;
+  --color-fg-subtle: #666666;
+  --color-fg-on-emphasis: #ffffff;
+  --color-fg-brand: #cb3837;
+  --color-fg-accent: #196cb2;
+  --color-fg-success: #107010;
+  --color-fg-attention: #886701;
+  --color-fg-danger: #bb2e3e;
+
+  --color-bg-default: #ffffff;
+  --color-bg-subtle: #f7f7f7;
+  --color-bg-inset: #f2f2f2;
+  --color-bg-emphasis: #262626;
+  --color-bg-accent: #f2f9ff;
+  --color-bg-success: #dcfdd9;
+  --color-bg-attention: #fff5d8;
+  --color-bg-danger: #ffdbdb;
+
+  --color-border-default: #e6e6e6;
+  --color-border-muted: #f2f2f2;
+  --color-border-strong: #767676;
+  --color-border-accent: #afcee9;
+  --color-border-accent-emphasis: #0969da;
+  --color-border-success: #93d58a;
+  --color-border-success-emphasis: #107010;
+  --color-border-attention: #efd88f;
+  --color-border-danger: #f1b8bc;
+
+  --color-shadow-large: 0 8px 24px rgba(140, 149, 159, 0.2);
+
+  /*
+    Legacy color variables — please avoid!
+  */
+  --wombat-red-hover: #c40b0a;
+  --button-green: #00c642;
+  --wombat-yellow: #ffcd3a;
+  --wombat-violet: #8956ff;
+  --wombat-purple: #c836c3;
+  --wombat-green: #00c642;
+  --wombat-teal: #29abe2;
+  --light-blue: #70b8ff;
+  --wombat-red: #cb3837;
+  --header-color: #000;
+  --bg-dark: #cb3837;
+  --npmRed: #cb3837;
+  --npmLightRed: #fb3e44;
+  --blue: #357edd;
+  --bg: #fff;
+  --background-color: #fafafa;
+  --wombat-bg-red: rgba(203, 55, 56, 0.1);
+
+  --code: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+  --code-ls: 0px;
+  --code-lh: 24px;
+
+  --standardCardTransition: all 0.2s ease;
+
+  --header-letter-spacing: 0.015625em;
+
+  --readme-font-size: 18px;
+  --readme-line-height: 1.6;
+  --copy-color: rgba(0, 0, 0, 0.85);
+  --code-bg: #f7f7f7;
+  --code-box-radius: 2px;
+}
+
+._102d5b24 {
+}
+
+._73a8e6f0 {
+  flex: none;
+}
+
+@media screen and (min-width: 60em) {
+  ._73a8e6f0 {
+    width: 320px;
+    padding-right: 60px;
+  }
+}
+
+.d2f60d44 {
+}
+
+.b219ea1a {
+  font-size: 32px;
+  word-break: break-all;
+}
+
+._5240e347 {
+}
+
+._49617212 {
+  background: black;
+}
+
+._49617212 img {
+  margin-right: 4px;
+}
+
+.f3f8c3f4 {
+}
+
+._3bc44b57 {
+  font-size: 2rem;
+}
+
+._57e26c3d {
+}
+
+.c5c8a11c {
+  vertical-align: 2px;
+}
+
+._5240e347:hover,
+._5240e347:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.fc85958f {
+  border-top: none;
+  border-width: 1px;
+}
+
+._00cd8e7e {
+  display: inline;
+  color: #444;
+}
+
+._5c90208b {
+  display: inline;
+  color: #444;
+}
+
+._00cd8e7e:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+._166b42f6 {
+}
+
+.c0b3f3c9 {
+}
+
+._67380550 {
+}
+
+.ad679014 {
+}
+
+._1ca5c0ef {
+}
+
+._07eda527 {
+}
+
+._43cef18c {
+}
+
+._857bb5fe {
+  color: #fff !important;
+  justify-content: center;
+  background: #cb3837;
+}
+
+.a11667ce {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 21px;
+  background-position: center;
+}
+
+._3aa6ef91 {
+  background-image: url(https://static-production.npmjs.com/ca1922cf6824a157752008094d1e9627.svg);
+}
+
+._67ce2092 {
+  background-image: url(https://static-production.npmjs.com/77a1975e9c223b408cb31330b6a965df.svg);
+}
+
+._34da67ba {
+  background-image: url(https://static-production.npmjs.com/bc0fd45a2d3dc8827bc30618ae03cd62.svg);
+}
+
+._69ab2ca0 {
+  border: 1px solid #e6e6e6;
+  background-color: #f7f7f7;
+}
+
+.eaac77a6 {
+  color: #666666;
+  color: var(--color-fg-subtle);
+}
+
+@media (max-width: 460px) {
+  .f54986f6 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

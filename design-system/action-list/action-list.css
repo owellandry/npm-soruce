@@ -1,0 +1,47 @@
+:root {
+  --row-radius: 3px;
+}
+
+._3f371a18 {
+}
+
+._418a6c00 {
+}
+
+.d1f83072 {
+  min-width: 1rem;
+}
+
+._1557da71 {
+  border-radius: 3px;
+  border-radius: var(--row-radius);
+}
+
+.fd18bd36 {
+  margin-top: 0px;
+  background: #fefefe;
+}
+
+.fd18bd36:first-child {
+  margin-top: 0;
+}
+
+.fd18bd36:nth-of-type(odd) {
+  background: #f9f9f9;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.fd18bd36:first-of-type {
+  border-top-left-radius: 3px;
+  border-top-left-radius: var(--row-radius);
+  border-top-right-radius: 3px;
+  border-top-right-radius: var(--row-radius);
+}
+
+.fd18bd36:last-of-type {
+  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: var(--row-radius);
+  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: var(--row-radius);
+  border-bottom: none;
+}

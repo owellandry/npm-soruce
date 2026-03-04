@@ -1,0 +1,8 @@
+:root {
+  --wombat-red: #cb3837;
+}
+
+._75a5f581 {
+  color: #cb3837;
+  color: var(--wombat-red);
+}

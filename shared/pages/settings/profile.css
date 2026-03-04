@@ -1,0 +1,126 @@
+/*
+These breakpoints are based on tachyon's source
+
+TACHYONS v4.9.0 | http://tachyons.io
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE. 
+*/
+
+._60238ef4 {
+  margin-top: 0;
+}
+
+._9aa65802 {
+}
+
+._7cbdfdc3 {
+}
+
+/* 
+Added media queries to add support for tablet screens.
+This makes the two-column view to be a single column view for tablets and smaller screens.
+*/
+
+@media only screen and (max-width: 960px) {
+  ._9aa65802 {
+    width: 100%;
+  }
+  ._7cbdfdc3 {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+._4fd0843a {
+}
+
+._38bfacc2 {
+  padding-bottom: 8px;
+}
+
+.b49405c7 {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  line-height: 16px;
+  color: #262626;
+}
+
+._746cc65a {
+}
+
+.a1adde91 {
+  font-weight: regular;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-fg-muted);
+}
+
+._56689c87 {
+  line-height: 23px;
+}
+
+._0c9e273e {
+}
+
+@media only screen and (max-width: 600px) {
+  ._0c9e273e {
+    width: 100%;
+  }
+}
+
+.b33a735e {
+}
+
+.b30dcf56 {
+}
+
+._6470241a {
+}
+
+._6470241a a {
+  font-weight: normal;
+  color: #666;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+._6470241a a:hover {
+  color: #999;
+}
+
+.d1a0c8dc {
+}
+
+._636fab96 {
+  height: 42px;
+  margin-bottom: 4px;
+}
+
+.f588b110 {
+}
+
+._56689c87 {
+  width: 100%;
+  max-width: 420px;
+}
+
+._6f774181 {
+}

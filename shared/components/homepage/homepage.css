@@ -1,0 +1,342 @@
+:root {
+  /*
+    Semantically-named custom properties matching npm Figma Library
+    and Primer naming conventions.
+
+    These should be preferred over the below variables.
+
+    Note that each variable has a corresponding class;
+    `--color-fg-default` can be applied with `.color-fg-default`, etc.
+
+    https://www.figma.com/file/qewGdfS6NAH5yOR3gKtWK9/?node-id=3%3A41
+  */
+  --color-fg-default: #262626;
+  --color-fg-muted: #4d4d4d;
+  --color-fg-subtle: #666666;
+  --color-fg-on-emphasis: #ffffff;
+  --color-fg-brand: #cb3837;
+  --color-fg-accent: #196cb2;
+  --color-fg-success: #107010;
+  --color-fg-attention: #886701;
+  --color-fg-danger: #bb2e3e;
+
+  --color-bg-default: #ffffff;
+  --color-bg-subtle: #f7f7f7;
+  --color-bg-inset: #f2f2f2;
+  --color-bg-emphasis: #262626;
+  --color-bg-accent: #f2f9ff;
+  --color-bg-success: #dcfdd9;
+  --color-bg-attention: #fff5d8;
+  --color-bg-danger: #ffdbdb;
+
+  --color-border-default: #e6e6e6;
+  --color-border-muted: #f2f2f2;
+  --color-border-strong: #767676;
+  --color-border-accent: #afcee9;
+  --color-border-accent-emphasis: #0969da;
+  --color-border-success: #93d58a;
+  --color-border-success-emphasis: #107010;
+  --color-border-attention: #efd88f;
+  --color-border-danger: #f1b8bc;
+
+  --color-shadow-large: 0 8px 24px rgba(140, 149, 159, 0.2);
+
+  /*
+    Legacy color variables — please avoid!
+  */
+  --wombat-red-hover: #c40b0a;
+  --button-green: #00c642;
+  --wombat-yellow: #ffcd3a;
+  --wombat-violet: #8956ff;
+  --wombat-purple: #c836c3;
+  --wombat-green: #00c642;
+  --wombat-teal: #29abe2;
+  --light-blue: #70b8ff;
+  --wombat-red: #cb3837;
+  --header-color: #000;
+  --bg-dark: #cb3837;
+  --npmRed: #cb3837;
+  --npmLightRed: #fb3e44;
+  --blue: #357edd;
+  --bg: #fff;
+  --background-color: #fafafa;
+  --wombat-bg-red: rgba(203, 55, 56, 0.1);
+
+  --code: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+  --code-ls: 0px;
+  --code-lh: 24px;
+
+  --standardCardTransition: all 0.2s ease;
+
+  --header-letter-spacing: 0.015625em;
+
+  --readme-font-size: 18px;
+  --readme-line-height: 1.6;
+  --copy-color: rgba(0, 0, 0, 0.85);
+  --code-bg: #f7f7f7;
+  --code-box-radius: 2px;
+}
+
+._7eb68a55 {
+  background-color: #fafafa;
+  background-color: var(--background-color);
+}
+
+._5db7d6da {
+}
+
+._43a531d3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 60em) {
+  ._43a531d3 {
+    flex-direction: initial;
+  }
+}
+
+._329d07cd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+
+.efc7b1c8 {
+  display: flex;
+  flex: 1;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  transition: 0.2s background-color linear;
+}
+
+.efc7b1c8:nth-of-type(6n + 1):hover {
+  background-color: rgba(137, 86, 255, 0.2);
+}
+
+.efc7b1c8:nth-of-type(6n + 1):hover ._5d3decdb {
+  color: hsl(258.1065088757397, 100%, 26.862745098%);
+  border-bottom-color: hsl(258.1065088757397, 100%, 26.862745098%);
+}
+
+.efc7b1c8:nth-of-type(6n + 2):hover {
+  background-color: rgba(0, 198, 66, 0.2);
+}
+
+.efc7b1c8:nth-of-type(6n + 2):hover ._5d3decdb {
+  color: hsl(140, 100%, 18.8235294118%);
+  border-bottom-color: hsl(140, 100%, 18.8235294118%);
+}
+
+.efc7b1c8:nth-of-type(6n + 3):hover {
+  background-color: rgba(41, 171, 226, 0.2);
+}
+
+.efc7b1c8:nth-of-type(6n + 3):hover ._5d3decdb {
+  color: hsl(197.83783783783784, 76.1316872428%, 32.3529411765%);
+  border-bottom-color: hsl(197.83783783783784, 76.1316872428%, 32.3529411765%);
+}
+
+.efc7b1c8:nth-of-type(6n + 4):hover {
+  background-color: rgba(203, 56, 55, 0.2);
+}
+
+.efc7b1c8:nth-of-type(6n + 4):hover ._5d3decdb {
+  color: hsl(0.405405405405404, 58.7301587302%, 30.5882352941%);
+  border-bottom-color: hsl(0.405405405405404, 58.7301587302%, 30.5882352941%);
+}
+
+.efc7b1c8:nth-of-type(6n + 5):hover {
+  background-color: rgba(255, 205, 58, 0.2);
+}
+
+.efc7b1c8:nth-of-type(6n + 5):hover ._5d3decdb {
+  color: hsl(44.77157360406091, 100%, 21.3725490196%);
+  border-bottom-color: hsl(44.77157360406091, 100%, 21.3725490196%);
+}
+
+.efc7b1c8:nth-of-type(6n + 6):hover {
+  background-color: rgba(200, 54, 195, 0.2);
+}
+
+.efc7b1c8:nth-of-type(6n + 6):hover ._5d3decdb {
+  color: hsl(302.05479452054794, 57.4803149606%, 9.8039215686%);
+  border-bottom-color: hsl(302.05479452054794, 57.4803149606%, 9.8039215686%);
+}
+
+.efc7b1c8:hover ._5d3decdb {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+._5d3decdb {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 25px 35px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #333;
+  border: 1px solid #efefef;
+  border-bottom: 2px solid #efefef;
+  transition: 0.2s border-color linear;
+}
+
+._5d3decdb svg {
+  height: 18px;
+  margin-right: 10px;
+}
+
+.d100e025 {
+}
+
+._24122711 {
+}
+
+._45d55098 {
+}
+
+.da208140 {
+}
+
+.f85080bd {
+  border-bottom-color: #efefef;
+  padding: 10px 0;
+  margin: 0;
+  line-height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.f85080bd:hover {
+  color: #cb3837;
+}
+
+.d5376578 {
+  margin-bottom: 0;
+}
+
+._5b5c6538 {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+._5b5c6538:last-of-type {
+  border-bottom: none;
+}
+
+.e3558c28 {
+  border: 1px solid #ea2039;
+}
+
+._49d22aa6 {
+  border-color: #ea2039;
+}
+
+._664b9a60 {
+  border-color: #fab231;
+}
+
+._8f26e3fd {
+  border-color: #fee933;
+}
+
+._9979b908 {
+}
+
+._9979b908 svg {
+  height: 14px;
+  margin-right: 5px;
+}
+
+._33f4f9f4 {
+}
+
+._7c24d3ee {
+  display: inline-block;
+  float: right;
+}
+
+.bd1f93b5 {
+}
+
+._84559fbb {
+}
+
+._87671184 {
+  max-width: 50%;
+}
+
+._079bbfb7 {
+}
+
+._1c759227 {
+}
+
+.aac0d214 {
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aac0d214 pre {
+  margin: 0px;
+}
+
+.f77309c9 {
+}
+
+._5b979ecd {
+}
+
+._7bac6663 {
+  background-color: #8956ff;
+  background-color: var(--wombat-violet);
+  color: white;
+}
+
+.f6d9ef39 {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.cfe0756c {
+}
+
+.cfe0756c:hover {
+  color: #cb3837;
+  color: var(--wombat-red);
+}
+
+._65c21564 {
+}
+
+._65c21564:nth-child(3n + 1) {
+  border-left: 1px solid #eee;
+}
+
+._37d5fc18 {
+}
+
+._5d3bfe0c {
+  background: hsl(50, 100%, 93%);
+}
+
+._694832eb {
+}
+
+._7a5ab12b {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

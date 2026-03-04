@@ -1,0 +1,42 @@
+/* Container for EZCopy to handle text wrapping */
+.a9150b94 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+/* 
+ * Allow text to wrap inside EZCopy, overriding truncate
+ * Using higher specificity selector instead of !important
+ * This targets specifically code elements within our container
+ */
+.a9150b94 code,
+.a9150b94 code._2989fa73,
+span.a9150b94 code {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  word-break: break-word;
+  padding-right: 35px; /* Space for copy button */
+  display: block;
+}
+.fbd04dd1 {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  left: auto;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.fbd04dd1 svg {
+  width: 0.9em;
+  height: 0.9em;
+  flex: none;
+  margin-right: 3px;
+  margin-left: 0px;
+  margin-top: 3px;
+  fill: rgba(0, 0, 0, 0.5);
+}
+.fbd04dd1:hover svg {
+  fill: rgba(0, 0, 0, 0.8);
+}
